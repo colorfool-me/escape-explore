@@ -1,0 +1,171 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2575fc;
+}
+
+.navigation {
+  padding: 10px;
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.navigation__company {
+  font-size: 28px;
+  color: #2575fc;
+  font-weight: bold;
+  margin-left: 15px;
+  line-height: 35px;
+}
+
+.header {
+  background-image: url("../img/hero.jpg");
+  height: 330px;
+  background-size: cover;
+  position: relative;
+}
+
+.header__wrapper {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 185px;
+  color: white;
+}
+
+.header__headline {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #2575fc;
+  margin-bottom: 10px;
+}
+
+.header__text {
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.therapies {
+  background-color: #eef5fb;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.therapy {
+  padding: 10px 15px;
+  border: 5px solid white;
+}
+
+.therapy__headline {
+  color: #2575fc;
+  margin-top: 10px;
+}
+
+.therapy_text {
+  line-height: 20px;
+}
+
+.vision {
+  padding: 0 15px;
+  max-width: 768px;
+  margin: 30px auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.vision__headline {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.vision__text {
+  line-height: 22px;
+}
+
+.vision__text__image {
+  border-radius: 80px;
+  float: left;
+  margin-right: 15px;
+}
+
+.features {
+  max-width: 1024px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.features__scrollable {
+  overflow-x: auto;
+  display: flex;
+}
+
+.feature {
+  width: 300px;
+  padding: 0 15px;
+}
+
+.newsletter {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.newsletter__headline {
+  margin-top: 0;
+}
+
+.newsletter__form__email {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.newsletter__form__submit {
+  background-color: #2575fc;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 120px;
+  color: white;
+  box-shadow: none;
+  border-color: #2575fc;
+}
+
+@media(min-width: 768px) {
+  .header {
+    height: 550px;
+  }
+  .header__wrapper {
+    width: 360px;
+    top: 150px;
+  }
+  .header__headline {
+    font-size: 40px;
+  }
+  .header__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .vision {
+    margin: 50px auto;
+  }
+  .features {
+    margin: 50px auto;
+  }
+  .therapies {
+    display: flex;
+    margin: 50px auto;
+  }
+  .newsletter {
+    padding: 50px;
+  }
+}
